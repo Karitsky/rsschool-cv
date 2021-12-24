@@ -1,6 +1,8 @@
-### Valery Karitsky
+## Valery Karitsky
 
 ---
+
+**Location:** Poland, Gdańsk
 
 **Mobile (Poland):** +48 500-782-139
 
@@ -20,6 +22,7 @@
 - Well-organized, self-directed and passionate learner. Experienced in working in multicultural and rapidly changing environment.
 - *After many years in management I've decided to make a complete career shift towards production of front-end development due to personal goals and motivation.*
 
+---
 
 ### Skills:
 - **Core:** Project Management, Business Consulting, Business Analysis, Budget Estimation and Planning, Requirements Analysis, Presentations, Risk Management, Process Modelling, UI Prototyping
@@ -78,4 +81,4 @@
 
 ### English: 
 * Speaking/Writing - C1
-* Extensive practice for the last 5 years through daily communication with native speakers.
+* Extensive practice for the last 7 years through daily communication with native speakers.
