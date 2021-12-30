@@ -12,6 +12,11 @@ li {
   list-style: none;
 }
 
+nav, .footer-wrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
 /* HEADER */
 
 header {
@@ -46,18 +51,36 @@ main {
 }
 
 /* FOOTER */
+
+footer {
+  width: 100%;
+  background: lightgray;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.footer-links {
+  display: flex;
+}
+
 .footer-icon {
   display: block;
-}
-
-.github-icon {
-  background: url(../images/icons/GitHub-Mark-Light-32px.png) center center no-repeat;
-  width: 32px;
   height: 32px;
+  margin-left: 2rem;
 }
 
-.rs-icon {
+.footer-github-icon {
+  background: url(../images/icons/GitHub-Mark-32px.png) center center no-repeat;
+  background-size: contain;
+  width: 32px;
+}
+
+.footer-rs-icon {
   background: url(https://rs.school/images/rs_school_js.svg) center center no-repeat;
   width: 86px;
-  height: 32px;
 }
