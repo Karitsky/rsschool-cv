@@ -1,0 +1,31 @@
+/* GENERAL */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgray;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+.footer-icon {
+  display: block;
+}
+
+.github-icon {
+  background: url(../images/icons/GitHub-Mark-Light-32px.png) center center no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.rs-icon {
+  background: url(https://rs.school/images/rs_school_js.svg) center center no-repeat;
+  width: 86px;
+  height: 32px;
+}
