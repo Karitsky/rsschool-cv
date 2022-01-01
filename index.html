@@ -24,121 +24,172 @@
   </header>
 
   <main>
-    
-    <div class="photo">
-      <img class="profile-photo" src="./images/profile-photo.jpg" alt="Profile photo">
+    <div class="column-left">
+      <img class="profile-photo" src="./images/profile-photo.jpg" alt="Profile photo :: Valery Karitsky">
+      <div class="contacts">
+        <h3>Contact Me</h3>
+        <ul>
+          <li><span class="contacts-type">Location:</span> Poland, Gdańsk</li>
+          <li><span class="contacts-type">Mobile (Poland):</span> +48 500-782-139</li>
+          <li><span class="contacts-type">Mobile (Belarus):</span> +375 29 355-59-11</li>
+          <li><span class="contacts-type">Email:</span> <a href="mailto:valery.karitsky@gmail.com">valery.karitsky@gmail.com</a></li>
+          <li><span class="contacts-type">Telegram:</span> Karitsky</li>
+          <li><span class="contacts-type">Discord:</span> Karitsky#3625</li>
+        </ul>
+      </div>
     </div>
+
+    <div class="column-right">
+      <div class="introduction">
+        <h1>Valery Karitsky</h1>
+        <h2>Junior Front-End Developer</h2>
+      </div>
+      <section class="about-me" id="about-me">
+        <h3>About Me</h3>
+        <ul>
+          <li>Result-oriented professional with 10+ years of experience of management in IT.</li>
+          <li>Have a strong expertise in leading different kind of projects (both in production and in business development areas) aiming to ensure on time, under budget deliverables that meet and exceed client expectations.</li>
+          <li>Well-organized, self-directed and passionate learner. Experienced in working in multicultural and rapidly changing environment.</li>
+          <li><i>After many years in management I've decided to make a complete career shift towards production of front-end development due to personal goals and motivation.</i></li>
+        </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li><b>Core:</b> Project Management, Business Consulting, Business Analysis, Budget Estimation and Planning, Requirements Analysis, Presentations, Risk Management, Process Modelling, UI Prototyping</li>
+          <li><b>Web Technologies (Junior-level):</b> HTML, CSS, JavaScript</li>
+          <li><b>Software methodologies:</b> Agile, SCRUM, KANBAN, SAFe, Waterfall</li>
+          <li><b>Media Editing:</b> Photoshop, Lightroom, CorelDraw, Premiere Pro, Vegas Pro</li>
+          <li><b>Office Software:</b> PowerPoint, Word, Excel, Outlook, Project</li>
+        </ul>
+      </section>
+      <section class="work-experience" id="work-experience">
+        <h3>Work Experience</h3>
+        <p class="work-experience-role">Presales Consultant | 2014 - Present (2022)</p>
+        <p class="work-experience-place">EPAM Systems</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> the range of tasks performed covers analysis of client's business/technology/process objectives and requirements, creating business proposals that leverage modern digital solutions/approaches, mapping business and technical requirements to company capabilities and services, consulting on delivery methodologies and financial models, transition of projects to delivery organization, creating supporting documentation and visual assets for presentations.
+        </p>
+        <p class="work-experience-role">Department Lead | 2014</p>
+        <p class="work-experience-place">Webcom Media</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> full cycle of project management activities in SEO domain (80+ projects simultaneously), teams supervision and coordination, budget planning and accounting, reporting, risk management, business development, post-sales.
+        </p>
+        <p class="work-experience-role">Account Manager | 2011-2014</p>
+        <p class="work-experience-place">Itransition</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> full cycle of project management activities, account leadership, teams supervision and coordination, budget planning, risk management, pre-sales and up-sales, business analysis, project documentation creation and maintenance, wireframing and UI modeling, visual design, usability analysis.
+        </p>
+        <p class="work-experience-role">Product Manager | 2010</p>
+        <p class="work-experience-place">APPA Studio (startup)</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> apps and games concept development, project management, graphic design and visualizaion, presentations, copyrighting and translation.
+        </p>
+        <p class="work-experience-role">Project Manager | 2008-2009</p>
+        <p class="work-experience-place">Studio 25</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> workflow and order management, customer relationship, graphic design, prepress, units coordination, documentation creation and maintenance, production assistance.
+        </p>
+        <p class="work-experience-role">Event Manager | 2006-2008</p>
+        <p class="work-experience-place">Turip</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> organization and support of entertainment events and activities.
+        </p>
+        <p class="work-experience-role">Advertisement Manager | 2005-2006</p>
+        <p class="work-experience-place">Class-Club Reklama</p>
+        <p class="work-experience-responsibilities">
+          <b>Responsibilities:</b> full cycle of advertising campaigns starting from planning through implementation and support, media planning, documentation creation and maintenance.
+        </p>
+      </section>
+      <section class="education" id="education">
+        <h3>Education</h3>
+        <p>Minsk State Linguistic University - Master's Degree</p>
+        <p>Belarusian State Academy of Music - incompleted higher education</p>
+      </section>
+      <section class="trainings">
+        <h3>Trainings</h3>
+        <p>Multiple trainings and courses on the following topics (including, but not limited to):</p>
+        <ul>
+          <li>Web Technologies (HTML, CSS, JavaScript, )</li>
+          <li>Leadership, Communication, Presentation</li>
+          <li>Business Analysis</li>
+          <li>Agile, SAFe</li>
+          <li>Soft Skills (Phychology, Practical Neuro-linguistic Programming)</li>
+        </ul>
+      </section>
+      <section class="languages" id="languages">
+        <h3>Languages</h3>
+        <p><b>English:</b> C1 (extensive practice for the last 7 years through daily communication with native speakers)</p>
+        <p><b>Russian:</b> Native</p>
+        <p><b>Polish:</b> Basic</p>
+        <p><b>Japanese:</b> Basic</p>
+      </section>
+      <section class="code-example" id="code-example">
+        <h3>Code Example</h3>
+        <pre>
+          <code>
+  function toReadable (number) {
+    let SingleDigits = {
+      0: 'zero',
+      1: 'one',
+      2: 'two',
+      3: 'three',
+      4: 'four',
+      5: 'five',
+      6: 'six',
+      7: 'seven',
+      8: 'eight',
+      9: 'nine'
+    };
+    let Teens = {
+      10: 'ten',
+      11: 'eleven',
+      12: 'twelve',
+      13: 'thirteen',
+      14: 'fourteen',
+      15: 'fifteen',
+      16: 'sixteen',
+      17: 'seventeen',
+      18: 'eighteen',
+      19: 'nineteen'
+    };
+    let Dozens = {
+      20: 'twenty',
+      30: 'thirty',
+      40: 'forty',
+      50: 'fifty',
+      60: 'sixty',
+      70: 'seventy',
+      80: 'eighty',
+      90: 'ninety'
+    };
     
-    <div class="introduction">
-      <h1>Valery Karitsky</h1>
-      <h2>Junior Front-End Developer</h2>
+    let calcSingleDigits = n => SingleDigits[n];
+    let calcTeens = n => Teens[n];
+    let calcDozens = n => n % 10 > 0 ? Dozens[Math.floor(n / 10) * 10] + ' ' + SingleDigits[+String(n).slice(1)] : Dozens[Math.floor(n / 10) * 10];
+      
+    function calcSingleHundred(n) {
+      switch (true) {
+        case (n < 10): return calcSingleDigits(n); 
+        case (n >= 10 && n < 20): return calcTeens(n);
+        case (n >= 20 && n < 100): return calcDozens(n); 
+      }
+    }
+
+    if (number < 100) {
+      return calcSingleHundred(number);
+    } else {
+      if (number % 100) {
+        return calcSingleDigits(+String(number).slice(0,1)) + ' hundred ' + calcSingleHundred(+String(number).slice(1));
+      } else {
+        return calcSingleDigits(+String(number).slice(0,1)) + ' hundred';
+      }
+    }
+  }
+          </code>
+        </pre>
+      </section>
     </div>
-    
-    <section class="contacts">
-      <h3>Contact Me</h3>
-      <ul>
-        <li>Location: Poland, Gdańsk</li>
-        <li>Mobile (Poland): +48 500-782-139</li>
-        <li>Mobile (Belarus): +375 29 355-59-11</li>
-        <li>Email: valery.karitsky@gmail.com</li>
-        <li>Telegram: Karitsky</li>
-        <li>Discord: Karitsky#3625</li>
-      </ul>
-    </section>
-    
-    <section class="about-me" id="about-me">
-      <h3>About Me</h3>
-      <ul>
-        <li>Result-oriented professional with 10+ years of experience of management in IT.</li>
-        <li>Have a strong expertise in leading different kind of projects (both in production and in business development areas) aiming to ensure on time, under budget deliverables that meet and exceed client expectations.</li>
-        <li>Well-organized, self-directed and passionate learner. Experienced in working in multicultural and rapidly changing environment.</li>
-        <li>*After many years in management I've decided to make a complete career shift towards production of front-end development due to personal goals and motivation.*</li>
-      </ul>
-    </section>
-
-    <section class="skills" id="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>Core: Project Management, Business Consulting, Business Analysis, Budget Estimation and Planning, Requirements Analysis, Presentations, Risk Management, Process Modelling, UI Prototyping</li>
-        <li>Software methodologies: Agile, SCRUM, KANBAN, SAFe, Waterfall</li>
-        <li>Web Technologies: HTML, CSS, JavaScript (junior)</li>
-        <li>Media Editing: Photoshop, Lightroom, CorelDraw, Premiere Pro, Vegas Pro</li>
-        <li>Office Software: PowerPoint, Word, Excel, Outlook, Project</li>
-      </ul>
-    </section>
-    
-    <section class="languages" id="languages">
-      <h3>Languages</h3>
-      <p>English: C1 (Speaking/Writing). Extensive practice for the last 7 years through daily communication with native speakers).</p>
-      <p>Polish: Basic.</p>
-      <p>Russian: Native.</p>
-    </section>
-    
-    <section class="work-experience" id="work-experience">
-      <h3>Work Experience</h3>
-      <p>2014 - Present (2019)</p>
-      <p>EPAM Systems - Presales Consultant</p>
-      <p>
-        <b>Responsibilities:</b> the range of tasks performed covers analysis of client's business/technology/process objectives and requirements, creating business proposals that leverage modern digital solutions/approaches, mapping business and technical requirements to company capabilities and services, consulting on delivery methodologies and financial models, transition of projects to delivery organization, creating supporting documentation and visual assets for presentations.
-      </p>
-
-      <p>2014</p>
-      <p>Webcom Media - Department Lead</p>
-      <p>
-        <b>Responsibilities:</b> full cycle of project management activities in SEO domain (80+ projects simultaneously), teams supervision and coordination, budget planning and accounting, reporting, risk management, business development, post-sales.
-      </p>
-
-      <p>2011-2014</p>
-      <p>Itransition - Account Manager</p>
-      <p>
-        <b>Responsibilities:</b> full cycle of project management activities, account leadership, teams supervision and coordination, budget planning, risk management, pre-sales and up-sales, business analysis, project documentation creation and maintenance, wireframing and UI modeling, visual design, usability analysis.
-      </p>
-
-      <p>2010</p>
-      <p>APPA Studio (startup) - Game-Designer / Project Manager</p>
-      <p>
-        <b>Responsibilities:</b> apps and games concept development, project management, graphic design and visualizaion, presentations, copyrighting and translation.
-      </p>
-
-      <p>2008-2009</p>
-      <p>Studio 25 - Project Manager</p>
-      <p>
-        <b>Responsibilities:</b> workflow and order management, customer relationship, graphic design, prepress, units coordination, documentation creation and maintenance, production assistance.
-      </p>
-
-      <p>2006-2008</p>
-      <p>Turip - Event Manager / Entertainer</p>
-      <p>
-        <b>Responsibilities:</b> organization and support of entertainment events and activities.
-      </p>
-
-      <p>2005-2006</p>
-      <p>Class-Club Reklama - Advertisement Manager</p>
-      <p>
-        <b>Responsibilities:</b> full cycle of advertising campaigns starting from planning through implementation and support, media planning, documentation creation and maintenance.
-      </p>
-    </section>
-    
-    <section class="education" id="education">
-      <h3>Education</h3>
-      <p>Minsk State Linguistic University - Master's Degree</p>
-      <p>Belarusian State Academy of Music - incompleted higher education</p>
-    </section>
-    
-    <section class="trainings">
-      <h3>Trainings</h3>
-      <p>Multiple trainings and courses on the following topics (including, but not limited to):</p>
-      <p>Leadership, Communication, Presentation</p>
-      <p>Business Analysis</p>
-      <p>Agile, SAFe</p>
-      <p>Web Technologies</p>
-      <p>Phychology, Practical Neuro-linguistic Programming</p>
-    </section>
-
-    <section class="code-example" id="code-example">
-      <h3>Code example</h3>
-    </section>
- 
   </main>
 
   <footer>
