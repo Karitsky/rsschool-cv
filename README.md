@@ -1,2 +1,3 @@
-https://Karitsky.github.io/rsschool-cv/cv
-https://Karitsky.github.io/rsschool-cv/
+https://Karitsky.github.io/rsschool-cv/cv (Markdown version)
+
+https://Karitsky.github.io/rsschool-cv/ (HTML version)
